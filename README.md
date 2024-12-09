@@ -29,12 +29,15 @@ avg_s_clipped = Repetition penalty (MAX(avg_s, MIN_S) with MIN_S = 0.2).
 ## Dataset Description
 ## Files
 
-test.csv: Contains topics for which essays must be generated. Columns:
-id: Unique identifier for each row.
-topic: The topic of the essay.
-sample_submission.csv: Example of a valid submission. Columns:
-id: Matches the IDs in test.csv.
-essay: Example essays.
+- test.csv: Contains topics for which essays must be generated.
+  
+## Columns:
+
+- id: Unique identifier for each row.
+- topic: The topic of the essay.
+- sample_submission.csv: Example of a valid submission. Columns:
+- id: Matches the IDs in test.csv.
+- essay: Example essays.
 
 ## Dataset Size
 
